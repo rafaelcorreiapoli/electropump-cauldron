@@ -14,13 +14,23 @@
               "yarnLocks": {},
               "nativeDeps": [],
               "container": {
-                "miniApps": [],
-                "nativeDeps": [],
+                "miniApps": [
+                  "electropump-help-miniapp@0.0.1"
+                ],
+                "nativeDeps": [
+                  "react-native@0.52.2"
+                ],
                 "jsApiImpls": []
               },
-              "codePush": {}
+              "codePush": {},
+              "containerVersion": "1.0.0"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0"
+            }
+          }
         }
       ]
     }
