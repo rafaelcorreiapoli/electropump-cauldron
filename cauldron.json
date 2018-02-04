@@ -28,7 +28,13 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "https://github.com/rafaelcorreiapoli/electropump-android-container"
+                }
+              ]
             }
           }
         }
