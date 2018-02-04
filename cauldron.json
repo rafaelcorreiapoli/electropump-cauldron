@@ -35,6 +35,10 @@
                 {
                   "name": "github",
                   "url": "git@github.com:rafaelcorreiapoli/electropump-android-container.git"
+                },
+                {
+                  "name": "maven",
+                  "url": "http://repo1.maven.org/maven2"
                 }
               ]
             }
