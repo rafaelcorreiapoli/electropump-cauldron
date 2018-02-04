@@ -37,6 +37,25 @@
               ]
             }
           }
+        },
+        {
+          "name": "ios",
+          "versions": [
+            {
+              "name": "0.0.1",
+              "ernPlatformVersion": "0.12.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "container": {
+                "miniApps": [],
+                "nativeDeps": [],
+                "jsApiImpls": []
+              },
+              "codePush": {}
+            }
+          ]
         }
       ]
     }
