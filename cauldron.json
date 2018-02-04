@@ -69,7 +69,13 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "git@github.com:rafaelcorreiapoli/electropump-ios-container.git"
+                }
+              ]
             }
           }
         }
