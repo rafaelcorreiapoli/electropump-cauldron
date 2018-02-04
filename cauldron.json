@@ -32,7 +32,7 @@
               "publishers": [
                 {
                   "name": "github",
-                  "url": "https://github.com/rafaelcorreiapoli/electropump-android-container"
+                  "url": "git@github.com:rafaelcorreiapoli/electropump-android-container.git"
                 }
               ]
             }
