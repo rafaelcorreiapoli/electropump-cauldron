@@ -30,7 +30,9 @@
                 "nativeDeps": [
                   "react-native@0.52.2"
                 ],
-                "jsApiImpls": []
+                "jsApiImpls": [
+                  "react-native-electropump-http-client-api-impl@1.1.0"
+                ]
               },
               "codePush": {},
               "containerVersion": "1.0.1"
