@@ -19,11 +19,13 @@
               "ernPlatformVersion": "0.12.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {},
+              "yarnLocks": {
+                "container": "b0a8ad24e0ff243f74e59ba0c00687fc22f15cc6"
+              },
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "electropump-help-miniapp@0.0.1"
+                  "electropump-help-miniapp@0.0.2"
                 ],
                 "nativeDeps": [
                   "react-native@0.52.2"
@@ -31,16 +33,20 @@
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.1"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0",
+              "containerVersion": "1.0.1",
               "publishers": [
                 {
                   "name": "github",
                   "url": "git@github.com:rafaelcorreiapoli/electropump-android-container.git"
+                },
+                {
+                  "name": "maven",
+                  "url": "http://repo1.maven.org/maven2"
                 }
               ]
             }
@@ -54,11 +60,13 @@
               "ernPlatformVersion": "0.12.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {},
+              "yarnLocks": {
+                "container": "b3cf81794df64eb7326a8b1170e9597bf271d2b3"
+              },
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "electropump-help-miniapp@0.0.1"
+                  "electropump-help-miniapp@0.0.3"
                 ],
                 "nativeDeps": [
                   "react-native@0.52.2"
@@ -66,12 +74,18 @@
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.1"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0"
+              "containerVersion": "1.0.1",
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "git@github.com:rafaelcorreiapoli/electropump-ios-container.git"
+                }
+              ]
             }
           }
         }
