@@ -1,4 +1,12 @@
 {
+  "config": {
+    "manifest": {
+      "override": {
+        "url": "git@github.com:rafaelcorreiapoli/electropump-manifest.git",
+        "type": "partial"
+      }
+    }
+  },
   "nativeApps": [
     {
       "name": "ElectroPump",
