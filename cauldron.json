@@ -28,10 +28,12 @@
                   "electropump-help-miniapp@0.0.2"
                 ],
                 "nativeDeps": [
-                  "react-native@0.52.2"
+                  "react-native@0.52.2",
+                  "react-native-electrode-bridge@1.5.9",
+                  "react-native-electropump-http-client-api-impl@1.1.0"
                 ],
                 "jsApiImpls": [
-                  "react-native-electropump-http-client-api-impl@1.1.0"
+                  
                 ]
               },
               "codePush": {},
