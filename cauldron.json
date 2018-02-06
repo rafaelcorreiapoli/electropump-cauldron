@@ -25,23 +25,24 @@
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "electropump-help-miniapp"
+                  "electropump-help-miniapp@0.0.4"
                 ],
                 "nativeDeps": [
                   "react-native@0.52.2",
                   "react-native-electropump-http-client-api-impl@1.1.0",
                   "react-native-electrode-bridge@1.5.9",
-                  "electropump-http-client-api@1.4.0"
+                  "electropump-http-client-api@1.4.0",
+                  "react-native-code-push@5.2.1"
                 ],
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.3"
+              "containerVersion": "1.0.4"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.3",
+              "containerVersion": "1.0.4",
               "publishers": [
                 {
                   "name": "github",
