@@ -1,12 +1,12 @@
 {
- "config": {    
-    "manifest": {   
-       "override": {    
-          "url": "git@github.com:rafaelcorreiapoli/electropump-manifest.git",   
-          "type": "full"    
-        }   
-      }   
-   },
+  "config": {
+    "manifest": {
+      "override": {
+        "url": "git@github.com:rafaelcorreiapoli/electropump-manifest.git",
+        "type": "full"
+      }
+    }
+  },
   "nativeApps": [
     {
       "name": "electro-pump",
@@ -23,22 +23,23 @@
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "electropump-help-miniapp@0.0.3"
+                  "electropump-help-miniapp"
                 ],
                 "nativeDeps": [
                   "react-native@0.52.2",
                   "react-native-electropump-http-client-api-impl@1.1.0",
-                  "react-native-electrode-bridge@1.5.9"
+                  "react-native-electrode-bridge@1.5.9",
+                  "electropump-http-client-api@1.4.0"
                 ],
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.2"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.2"
             }
           }
         }
