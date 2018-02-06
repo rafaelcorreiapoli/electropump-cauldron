@@ -20,7 +20,8 @@
               "isReleased": true,
               "binary": null,
               "yarnLocks": {
-                "container": "6e2f27909a18b53091e2286eec9e9dc00910851a"
+                "container": "6e2f27909a18b53091e2286eec9e9dc00910851a",
+                "Production": "99a26713ef8d0a262fb3c5807d8aa11187f79589"
               },
               "nativeDeps": [],
               "container": {
@@ -36,7 +37,26 @@
                 ],
                 "jsApiImpls": []
               },
-              "codePush": {},
+              "codePush": {
+                "Production": [
+                  {
+                    "metadata": {
+                      "deploymentName": "Production",
+                      "isMandatory": false,
+                      "appVersion": "0.0.1",
+                      "size": 185403,
+                      "releaseMethod": "Upload",
+                      "label": "v1",
+                      "releasedBy": "rafael.correia.poli@gmail.com",
+                      "rollout": 100
+                    },
+                    "miniapps": [
+                      "electropump-help-miniapp@0.0.6"
+                    ],
+                    "jsApiImpls": []
+                  }
+                ]
+              },
               "containerVersion": "1.0.5"
             }
           ],
