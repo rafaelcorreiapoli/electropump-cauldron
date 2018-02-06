@@ -20,12 +20,12 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "2c367b7923062121a1f5a9d3ede5c4a7ac598ff1"
+                "container": "6e2f27909a18b53091e2286eec9e9dc00910851a"
               },
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "electropump-help-miniapp@0.0.4"
+                  "electropump-help-miniapp@0.0.5"
                 ],
                 "nativeDeps": [
                   "react-native@0.52.2",
@@ -37,12 +37,12 @@
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.4"
+              "containerVersion": "1.0.5"
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.4",
+              "containerVersion": "1.0.5",
               "publishers": [
                 {
                   "name": "github",
