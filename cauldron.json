@@ -17,7 +17,7 @@
             {
               "name": "0.0.1",
               "ernPlatformVersion": "0.12.0",
-              "isReleased": false,
+              "isReleased": true,
               "binary": null,
               "yarnLocks": {
                 "container": "6e2f27909a18b53091e2286eec9e9dc00910851a"
